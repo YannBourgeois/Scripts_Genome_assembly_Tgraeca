@@ -4,6 +4,7 @@ This file contains the commands used to generate a reference-guided, de novo ass
 Most of these commands are contained in bash scripts (.sh) that can be submitted on a HPC cluster. It is important to inspect the files to perform a few minor edits, depending on which combinations of k-mers or input files you need.
 Pay particular attention to the number of job arrays, memory, number of cores, and think to add or edit the names of the queues, which will almost certainly differ.
 Below are a few links to the Github pages of the methods used here. 
+
 SOAPec: 
 https://sourceforge.net/projects/soapdenovo2/files/ErrorCorrection/
 
@@ -286,6 +287,10 @@ We use MitoZ. We use singularity to download a container for v3.4. We only take 
 
 
 ```
+
+head -n 40000000 ./TestuSeq_R1.fastq > subset1.fastq
+head -n 40000000 ./TestuSeq_R2.fastq > subset2.fastq
+
 singularity pull MitoZ_v3.4.sif docker://guanliangmeng/mitoz:3.4
 sbatch MitoZ_job.sh
 ```
