@@ -1,0 +1,5 @@
+1	aa.fastq
+2	ab.fastq
+3	ac.fastq
+4	ad.fastq
+5	ae.fastq
