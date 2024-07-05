@@ -204,7 +204,7 @@ git clone https://github.com/Gaius-Augustus/BRAKER.git
 wget http://topaz.gatech.edu/GeneMark/tmp/GMtool_FO3MM/gmes_linux_64_4.tar.gz
 ```
 
-For the version of BRAKER we used, GENEMARK needed a key at http://topaz.gatech.edu/GeneMark/tmp/GMtool_FO3MM/gm_key_64.gz
+For the version of BRAKER we used, GENEMARK needed a key.
 It changed recently, the key is not needed anymore. If you are reusing these scripts, it should be much easier.
 
 ```
