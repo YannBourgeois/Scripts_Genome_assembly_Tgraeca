@@ -30,7 +30,7 @@ https://github.com/stschiff/msmc2
 **MitoZ**
 https://github.com/linzhi2013/MitoZ
 
-You can install most of them through anaconda/mamba, by creating an environment.
+You can install most of them through anaconda/mamba, by creating an environment. Below is an example for ntJoin:
 
 ```
 conda create --name ntjoin
