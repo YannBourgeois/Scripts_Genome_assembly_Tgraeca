@@ -1,6 +1,6 @@
 ### Introduction
 
-This file contains the commands used to generate a reference-guided, de novo assembly of Testudo graeca from paired-end short reads. Reads and the obtained reference genome are part of the BioProject PRJNA1086345.
+This file contains the commands used to generate a reference-guided, de novo assembly of *Testudo graeca* from paired-end short reads. Reads and the obtained reference genome are part of the BioProject PRJNA1086345.
 Most of these commands are contained in bash scripts (.sh) that can be submitted on a HPC cluster. It is important to inspect the files to perform a few minor edits, depending on which combinations of k-mers or input files you need.
 Pay particular attention to the number of job arrays, memory, number of cores, and think to add or edit the names of the queues, which will almost certainly differ.
 Below are a few links to the Github pages of the methods used here. 
@@ -100,7 +100,7 @@ sbatch SOAPdenovo_array.sh
 
 ### ntJoin (guided scaffolding).
 
-Once we have these draft assemblies, we use the software ntJoin, which will map back the scaffolds to the Gopherus evgoodei reference and order them
+Once we have these draft assemblies, we use the software ntJoin, which will map back the scaffolds to the *Gopherus evgoodei* reference and order them
 
 ```
 ls Cluster_* -d | > list_alignments.txt ###generates the list with a column with task ids and a column with the files to align.
