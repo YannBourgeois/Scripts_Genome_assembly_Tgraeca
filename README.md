@@ -42,7 +42,7 @@ Just think to activate the relevant environment before launching the commands.
 ### About the data.
 
 The FASTQC reports (included in AllGenetics results) show a very high quality: almost no adapters, quality drops marginally at the end of the reads.
-There are several genomes available, but the best one (though only second-closest relative after C abingdonii) is the chromosome-level assembly of Gopherus evgoodei, available here:
+There are several genomes available, but the best one (though only second-closest relative after *Chelonoidis abingdonii*) is the chromosome-level assembly of Gopherus evgoodei, available here:
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/007/399/415/GCF_007399415.2_rGopEvg1_v1.p/
 
 ### Read cleaning.
