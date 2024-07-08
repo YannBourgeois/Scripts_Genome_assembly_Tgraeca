@@ -5,27 +5,30 @@ Most of these commands are contained in bash scripts (.sh) that can be submitted
 Pay particular attention to the number of job arrays, memory, number of cores, and think to add or edit the names of the queues, which will almost certainly differ.
 Below are a few links to the Github pages of the methods used here. 
 
-SOAPec: 
+**SOAPec**
 https://sourceforge.net/projects/soapdenovo2/files/ErrorCorrection/
 
-SOAPdenovo2
+**SOAPdenovo2**
 https://github.com/aquaskyline/SOAPdenovo2
 
-ntJoin
+**ntJoin**
 https://github.com/bcgsc/ntJoin
 
-RepeatModeler/RepeatMasker
+**RepeatModeler/RepeatMasker**
 https://github.com/Dfam-consortium
 https://www.repeatmasker.org/
 
-BRAKER (note that the latest version is easier to use, there is no need for a key for GENEMARK anymore).
+**BRAKER** (note that the latest version is easier to use, there is no need for a key for GENEMARK anymore).
 https://github.com/Gaius-Augustus/BRAKER
 
-FreeBayes
+**FreeBayes**
 https://github.com/freebayes/freebayes
 
-MSMC2
+**MSMC2**
 https://github.com/stschiff/msmc2
+
+**MitoZ**
+https://github.com/linzhi2013/MitoZ
 
 You can install most of them through anaconda/mamba, by creating an environment.
 
