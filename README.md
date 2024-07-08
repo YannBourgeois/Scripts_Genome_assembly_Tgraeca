@@ -11,6 +11,9 @@ https://sourceforge.net/projects/soapdenovo2/files/ErrorCorrection/
 **SOAPdenovo2**
 https://github.com/aquaskyline/SOAPdenovo2
 
+**BBMAP/BBTools**
+https://github.com/BioInfoTools/BBMap/tree/master
+
 **ntJoin**
 https://github.com/bcgsc/ntJoin
 
