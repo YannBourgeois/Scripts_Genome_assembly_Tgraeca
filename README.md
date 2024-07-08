@@ -57,7 +57,7 @@ biopet-fastqsplitter -I ./Raw_Data/TestuSeq_R2.fastq -o Read_2_aa.fastq -o Read_
 
 ```
 We then launch an array job on a HPC cluster. We assume that you have a SLURM scheduler. The script is found in the trim_and_merge_reads.sh. 
-You also need a config file (tab delimited) for the array script, containing in the first column the identifier of the array (from 1 to 5 here). It is named file_for_array_trim.txt.
+You also need a config file (tab delimited) for the array script, containing in the first column the identifier of the array (from 1 to 5 here). It is named *file_for_array_trim.txt*.
 
 
 ```
